@@ -1,7 +1,6 @@
 ---
 lang: en
 title: v3.5 SRD / Basic Rules and Legal / Feats
-viewport: width=device-width,minimum-scale=1.0
 ---
 
 This material is Open Game Content, and is licensed for public use under
@@ -11,123 +10,6 @@ the terms of the Open Game License v1.0a.
 
 ## Table of Contents
 
--   [[#Prerequisites]
--   [[#Types of Feats]
-    -   [[#Fighter Bonus Feats]
-    -   [[#Item Creation Feats]
-    -   [[#Metamagic Feats]
--   [[#Feat Descriptions]
-    -   [[#Feat Name ]]
-    -   [[#Acrobatic ]]
-    -   [[#Agile ]]
-    -   [[#Alertness ]]
-    -   [[#Animal Affinity ]]
-    -   [[#Armor Proficiency (Heavy) ]]
-    -   [[#Armor Proficiency (Light)  ]]
-    -   [[#Armor Proficiency (Medium) ]]
-    -   [[#Athletic ]]
-    -   [[#Augment Summoning ]]
-    -   [[#Blind-Fight ]]
-    -   [[#Brew Potion ]]
-    -   [[#Cleave ]]
-    -   [[#Combat Casting ]]
-    -   [[#Combat Expertise ]]
-    -   [[#Combat Reflexes ]]
-    -   [[#Craft Magic Arms and Armor ]]
-    -   [[#Craft Rod ]]
-    -   [[#Craft Staff ]]
-    -   [[#Craft Wand ]]
-    -   [[#Craft Wondrous Item ]]
-    -   [[#Deceitful ]]
-    -   [[#Deflect Arrows ]]
-    -   [[#Deft Hands ]]
-    -   [[#Diehard ]]
-    -   [[#Diligent ]]
-    -   [[#Dodge ]]
-    -   [[#Empower Spell ]]
-    -   [[#Endurance ]]
-    -   [[#Enlarge Spell ]]
-    -   [[#Eschew Materials ]]
-    -   [[#Exotic Weapon Proficiency ]]
-    -   [[#Extend Spell ]]
-    -   [[#Extra Turning ]]
-    -   [[#Far Shot ]]
-    -   [[#Forge Ring ]]
-    -   [[#Great Cleave ]]
-    -   [[#Great Fortitude ]]
-    -   [[#Greater Spell Focus ]]
-    -   [[#Greater Spell Penetration]]
-    -   [[#Greater Two-Weapon Fighting ]]
-    -   [[#Greater Weapon Focus ]]
-    -   [[#Greater Weapon Specialization ]]
-    -   [[#Heighten Spell ]]
-    -   [[#Improved Bull Rush ]]
-    -   [[#Improved Counterspell ]]
-    -   [[#Improved Critical ]]
-    -   [[#Improved Disarm ]]
-    -   [[#Improved Familiar ]]
-    -   [[#Improved Feint ]]
-    -   [[#Improved Grapple ]]
-    -   [[#Improved Initiative ]]
-    -   [[#Improved Overrun ]]
-    -   [[#Improved Precise Shot ]]
-    -   [[#Improved Shield Bash ]]
-    -   [[#Improved Sunder ]]
-    -   [[#Improved Trip ]]
-    -   [[#Improved Turning ]]
-    -   [[#Improved Two-Weapon Fighting ]]
-    -   [[#Improved Unarmed Strike ]]
-    -   [[#Investigator ]]
-    -   [[#Iron Will ]]
-    -   [[#Leadership ]]
-    -   [[#Lightning Reflexes ]]
-    -   [[#Magical Aptitude ]]
-    -   [[#Manyshot ]]
-    -   [[#Martial Weapon Proficiency ]]
-    -   [[#Maximize Spell ]]
-    -   [[#Mobility ]]
-    -   [[#Mounted Archery ]]
-    -   [[#Mounted Combat ]]
-    -   [[#Natural Spell ]]
-    -   [[#Negotiator ]]
-    -   [[#Nimble Fingers ]]
-    -   [[#Persuasive ]]
-    -   [[#Point Blank Shot ]]
-    -   [[#Power Attack ]]
-    -   [[#Precise Shot ]]
-    -   [[#Quick Draw ]]
-    -   [[#Quicken Spell ]]
-    -   [[#Rapid Reload ]]
-    -   [[#Rapid Shot ]]
-    -   [[#Ride-by Attack ]]
-    -   [[#Run ]]
-    -   [[#Scribe Scroll ]]
-    -   [[#Self-Sufficient ]]
-    -   [[#Shield Proficiency ]]
-    -   [[#Shot on the Run ]]
-    -   [[#Silent Spell ]]
-    -   [[#Simple Weapon Proficiency ]]
-    -   [[#Skill Focus ]]
-    -   [[#Snatch Arrows ]]
-    -   [[#Spell Focus ]]
-    -   [[#Spell Mastery ]]
-    -   [[#Spell Penetration ]]
-    -   [[#Spirited Charge ]]
-    -   [[#Spring Attack ]]
-    -   [[#Stealthy ]]
-    -   [[#Still Spell ]]
-    -   [[#Stunning Fist ]]
-    -   [[#Toughness ]]
-    -   [[#Tower Shield Proficiency ]]
-    -   [[#Track ]]
-    -   [[#Trample ]]
-    -   [[#Two-Weapon Defense ]]
-    -   [[#Two-Weapon Fighting ]]
-    -   [[#Weapon Finesse ]]
-    -   [[#Weapon Focus ]]
-    -   [[#Weapon Specialization ]]
-    -   [[#Whirlwind Attack ]]
-    -   [[#Widen Spell ]]
 
 ## Prerequisites
 
@@ -280,7 +162,7 @@ counterspelling or its ability to counterspell another spell.
 
 Here is the format for feat descriptions.
 
-### Feat Name 
+### Feat Name (featType:: Type of Feat)
 ***Feat Type: Type of Feat***
 
 **Prerequisite:** A minimum ability score, another feat or feats, a
@@ -302,17 +184,20 @@ drawback, this entry is absent.
 **Special:** Additional facts about the feat that may be helpful when
 you decide whether to acquire the feat.
 
+### Acrobatic (featType:: General)
 ### Acrobatic 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Jump checks and Tumble checks.
 
+### Agile (featType:: General)
 ### Agile 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Balance checks and Escape Artist
 checks.
 
+### Alertness (featType:: General)
 ### Alertness 
 ***Feat Type: General***
 
@@ -321,12 +206,14 @@ checks.
 **Special:** The master of a familiar gains the benefit of the Alertness
 feat whenever the familiar is within arm's reach.
 
+### Animal Affinity (featType:: General)
 ### Animal Affinity 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Handle Animal checks and Ride
 checks.
 
+### Armor Proficiency (Heavy) (featType:: General)
 ### Armor Proficiency (Heavy) 
 ***Feat Type: General***
 
@@ -340,6 +227,7 @@ checks.
 **Special:** Fighters, paladins, and clerics automatically have Armor
 Proficiency (heavy) as a bonus feat. They need not select it.
 
+### Armor Proficiency (Light) (featType:: General)
 ### Armor Proficiency (Light) 
 ***Feat Type: General***
 
@@ -356,6 +244,7 @@ skill checks that involve moving, including Ride.
 automatically have Armor Proficiency (light) as a bonus feat. They need
 not select it.
 
+### Armor Proficiency (Medium) (featType:: General)
 ### Armor Proficiency (Medium) 
 ***Feat Type: General***
 
@@ -369,11 +258,13 @@ not select it.
 automatically have Armor Proficiency (medium) as a bonus feat. They need
 not select it.
 
+### Athletic (featType:: General)
 ### Athletic 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Climb checks and Swim checks.
 
+### Augment Summoning (featType:: General)
 ### Augment Summoning 
 ***Feat Type: General***
 
@@ -383,6 +274,7 @@ not select it.
 +4 enhancement bonus to Strength and Constitution for the duration of
 the spell that summoned it.
 
+### Blind-Fight (featType:: General)
 ### Blind-Fight 
 ***Feat Type: General***
 
@@ -408,6 +300,7 @@ is the subject of a *blink* spell.
 
 A fighter may select Blind-Fight as one of his fighter bonus feats.
 
+### Brew Potion (featType:: Item Creation)
 ### Brew Potion 
 ***Feat Type: Item Creation***
 
@@ -430,6 +323,7 @@ cost also carries a commensurate cost. In addition to the costs derived
 from the base price, you must expend the material component or pay the
 XP when creating the potion.
 
+### Cleave (featType:: General)
 ### Cleave 
 ***Feat Type: General***
 
@@ -445,6 +339,7 @@ dropped the previous creature. You can use this ability once per round.
 **Special:** A fighter may select Cleave as one of his fighter bonus
 feats.
 
+### Combat Casting (featType:: General)
 ### Combat Casting 
 ***Feat Type: General***
 
@@ -452,6 +347,7 @@ feats.
 spell or use a spell-like ability while on the defensive or while you
 are grappling or pinned.
 
+### Combat Expertise (featType:: General)
 ### Combat Expertise 
 ***Feat Type: General***
 
@@ -470,6 +366,7 @@ penalty on attack rolls and gain a +2 dodge bonus to Armor Class.
 **Special:** A fighter may select Combat Expertise as one of his fighter
 bonus feats.
 
+### Combat Reflexes (featType:: General)
 ### Combat Reflexes 
 ***Feat Type: General***
 
@@ -490,6 +387,7 @@ A fighter may select Combat Reflexes as one of his fighter bonus feats.
 
 A monk may select Combat Reflexes as a bonus feat at 2nd level.
 
+### Craft Magic Arms and Armor (featType:: Item Creation)
 ### Craft Magic Arms and Armor 
 ***Feat Type: Item Creation***
 
@@ -511,6 +409,7 @@ materials, and half the time it would take to craft that item in the
 first place.
 
 ### Craft Rod 
+### Craft Rod (featType:: Item Creation)
 ***Feat Type: Item Creation***
 
 **Prerequisite:** Caster level 9th.
@@ -524,6 +423,7 @@ Some rods incur extra costs in material components or XP, as noted in
 their descriptions. These costs are in addition to those derived from
 the rod's base price.
 
+### Craft Staff (featType:: Item Creation)
 ### Craft Staff 
 ***Feat Type: Item Creation***
 
@@ -540,6 +440,7 @@ Some staffs incur extra costs in material components or XP, as noted in
 their descriptions. These costs are in addition to those derived from
 the staff 's base price.
 
+### Craft Wand (featType:: Item Creation)
 ### Craft Wand 
 ***Feat Type: Item Creation***
 
@@ -557,6 +458,7 @@ cost also carries a commensurate cost. In addition to the cost derived
 from the base price, you must expend fifty copies of the material
 component or pay fifty times the XP cost.
 
+### Craft Wondrous Item (featType:: Item Creation)
 ### Craft Wondrous Item 
 ***Feat Type: Item Creation***
 
@@ -576,12 +478,14 @@ noted in their descriptions. These costs are in addition to those
 derived from the item's base price. You must pay such a cost to create
 an item or to mend a broken one.
 
+### Deceitful (featType:: General)
 ### Deceitful 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Disguise checks and Forgery
 checks.
 
+### Deflect Arrows (featType:: General)
 ### Deflect Arrows 
 ***Feat Type: General***
 
@@ -601,12 +505,14 @@ level, even if she does not meet the prerequisites.
 
 A fighter may select Deflect Arrows as one of his fighter bonus feats.
 
+### Deft Hands (featType:: General)
 ### Deft Hands 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Sleight of Hand checks and Use
 Rope checks.
 
+### Diehard (featType:: General)
 ### Diehard 
 ***Feat Type: General***
 
@@ -633,12 +539,14 @@ points, you immediately die.
 **Normal:** A character without this feat who is reduced to between --1
 and --9 hit points is unconscious and dying.
 
+### Diligent (featType:: General)
 ### Diligent 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Appraise checks and Decipher
 Script checks.
 
+### Dodge (featType:: General)
 ### Dodge 
 ***Feat Type: General***
 
@@ -655,6 +563,7 @@ each other, unlike most other types of bonuses.
 **Special:** A fighter may select Dodge as one of his fighter bonus
 feats.
 
+### Empower Spell (featType:: Metamagic)
 ### Empower Spell 
 ***Feat Type: Metamagic***
 
@@ -665,6 +574,7 @@ Saving throws and opposed rolls are not affected, nor are spells without
 random variables. An empowered spell uses up a spell slot two levels
 higher than the spell's actual level.
 
+### Endurance (featType:: General)
 ### Endurance 
 ***Feat Type: General***
 
@@ -684,6 +594,7 @@ heavier armor is automatically fatigued the next day.
 **Special:** A ranger automatically gains Endurance as a bonus feat at
 3rd level. He need not select it.
 
+### Enlarge Spell (featType:: Metamagic)
 ### Enlarge Spell 
 ***Feat Type: Metamagic***
 
@@ -697,6 +608,7 @@ one level higher than the spell's actual level.
 Spells whose ranges are not defined by distance, as well as spells whose
 ranges are not close, medium, or long, do not have increased ranges.
 
+### Eschew Materials (featType:: General)
 ### Eschew Materials 
 ***Feat Type: General***
 
@@ -706,6 +618,7 @@ spell still provokes attacks of opportunity as normal.) If the spell
 requires a material component that costs more than 1 gp, you must have
 the material component at hand to cast the spell, just as normal.
 
+### Exotic Weapon Proficiency (featType:: General)
 ### Exotic Weapon Proficiency 
 ***Feat Type: General***
 
@@ -728,6 +641,7 @@ additional prerequisite of Str 13.
 A fighter may select Exotic Weapon Proficiency as one of his fighter
 bonus feats.
 
+### Extend Spell (featType:: Metamagic)
 ### Extend Spell 
 ***Feat Type: Metamagic***
 
@@ -736,6 +650,7 @@ with a duration of concentration, instantaneous, or permanent is not
 affected by this feat. An extended spell uses up a spell slot one level
 higher than the spell's actual level.
 
+### Extra Turning (featType:: General)
 ### Extra Turning 
 ***Feat Type: General***
 
@@ -756,6 +671,7 @@ or her Charisma modifier.
 stack. Each time you take the feat, you can use each of your turning or
 rebuking abilities four additional times per day.
 
+### Far Shot (featType:: General)
 ### Far Shot 
 ***Feat Type: General***
 
@@ -768,6 +684,7 @@ thrown weapon, its range increment is doubled.
 **Special:** A fighter may select Far Shot as one of his fighter bonus
 feats.
 
+### Forge Ring (featType:: Item Creation)
 ### Forge Ring 
 ***Feat Type: Item Creation***
 
@@ -786,6 +703,7 @@ Some magic rings incur extra costs in material components or XP, as
 noted in their descriptions. You must pay such a cost to forge such a
 ring or to mend a broken one.
 
+### Great Cleave (featType:: General)
 ### Great Cleave 
 ***Feat Type: General***
 
@@ -797,11 +715,13 @@ to the number of times you can use it per round.
 **Special:** A fighter may select Great Cleave as one of his fighter
 bonus feats.
 
+### Great Fortitude (featType:: General)
 ### Great Fortitude 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Fortitude saving throws.
 
+### Greater Spell Focus (featType:: General)
 ### Greater Spell Focus 
 ***Feat Type: General***
 
@@ -816,6 +736,7 @@ with the bonus from Spell Focus.
 stack. Each time you take the feat, it applies to a new school of magic
 to which you already have applied the Spell Focus feat.
 
+### Greater Spell Penetration (featType:: General)
 ### Greater Spell Penetration 
 ***Feat Type: General***
 
@@ -825,6 +746,7 @@ to which you already have applied the Spell Focus feat.
 level) made to overcome a creature's spell resistance. This bonus stacks
 with the one from Spell Penetration.
 
+### Greater Two-Weapon Fighting (featType:: General)
 ### Greater Two-Weapon Fighting 
 ***Feat Type: General***
 
@@ -841,6 +763,7 @@ An 11th-level ranger who has chosen the two-weapon combat style is
 treated as having Greater Two-Weapon Fighting, even if he does not have
 the prerequisites for it, but only when he is wearing light or no armor.
 
+### Greater Weapon Focus (featType:: General)
 ### Greater Weapon Focus 
 ***Feat Type: General***
 
@@ -865,6 +788,7 @@ Greater Weapon Specialization feat for that weapon.
 A fighter may select Greater Weapon Focus as one of his fighter bonus
 feats.
 
+### Greater Weapon Specialization (featType:: General)
 ### Greater Weapon Specialization 
 ***Feat Type: General***
 
@@ -887,6 +811,7 @@ new type of weapon.
 A fighter may select Greater Weapon Specialization as one of his fighter
 bonus feats.
 
+### Heighten Spell (featType:: Metamagic)
 ### Heighten Spell 
 ***Feat Type: Metamagic***
 
@@ -898,6 +823,7 @@ ability to penetrate a *lesser globe of invulnerability*) are calculated
 according to the heightened level. The heightened spell is as difficult
 to prepare and cast as a spell of its effective level.
 
+### Improved Bull Rush (featType:: General)
 ### Improved Bull Rush 
 ***Feat Type: General***
 
@@ -910,6 +836,7 @@ opposed Strength check you make to push back the defender.
 **Special:** A fighter may select Improved Bull Rush as one of his
 fighter bonus feats.
 
+### Improved Counterspell (featType:: General)
 ### Improved Counterspell 
 ***Feat Type: General***
 
@@ -920,6 +847,7 @@ school that is one or more spell levels higher than the target spell.
 same spell or with a spell specifically designated as countering the
 target spell.
 
+### Improved Critical (featType:: General)
 ### Improved Critical 
 ***Feat Type: General***
 
@@ -940,6 +868,7 @@ range of a weapon.
 A fighter may select Improved Critical as one of his fighter bonus
 feats.
 
+### Improved Disarm (featType:: General)
 ### Improved Disarm 
 ***Feat Type: General***
 
@@ -958,6 +887,7 @@ bonus feats.
 A monk may select Improved Disarm as a bonus feat at 6th level, even if
 she does not meet the prerequisites.
 
+### Improved Familiar (featType:: General)
 ### Improved Familiar 
 ***Feat Type: General***
 
@@ -1012,6 +942,7 @@ shown below.
   3 The master must first create the homunculus, substituting ichor or another part of the master's body for blood if necessary.
   -------------------------------------------------------------------------------------------------------------------------------- -------------- --------------------------
 
+### Improved Feint (featType:: General)
 ### Improved Feint 
 ***Feat Type: General***
 
@@ -1024,6 +955,7 @@ action.
 
 A fighter may select Improved Feint as one of his fighter bonus feats.
 
+### Improved Grapple (featType:: General)
 ### Improved Grapple 
 ***Feat Type: General***
 
@@ -1042,6 +974,7 @@ bonus feats.
 A monk may select Improved Grapple as a bonus feat at 1st level, even if
 she does not meet the prerequisites.
 
+### Improved Initiative (featType:: General)
 ### Improved Initiative 
 ***Feat Type: General***
 
@@ -1050,6 +983,7 @@ she does not meet the prerequisites.
 **Special:** A fighter may select Improved Initiative as one of his
 fighter bonus feats.
 
+### Improved Overrun (featType:: General)
 ### Improved Overrun 
 ***Feat Type: General***
 
@@ -1065,6 +999,7 @@ avoid you or to block you.
 **Special:** A fighter may select Improved Overrun as one of his fighter
 bonus feats.
 
+### Improved Precise Shot (featType:: General)
 ### Improved Precise Shot 
 ***Feat Type: General***
 
@@ -1091,6 +1026,7 @@ An 11th-level ranger who has chosen the archery combat style is treated
 as having Improved Precise Shot, even if he does not have the
 prerequisites for it, but only when he is wearing light or no armor.
 
+### Improved Shield Bash (featType:: General)
 ### Improved Shield Bash 
 ***Feat Type: General***
 
@@ -1105,6 +1041,7 @@ loses the shield's shield bonus to AC until his or her next turn.
 **Special:** A fighter may select Improved Shield Bash as one of his
 fighter bonus feats.
 
+### Improved Sunder (featType:: General)
 ### Improved Sunder 
 ***Feat Type: General***
 
@@ -1123,6 +1060,7 @@ you strike at an object held or carried by another character.
 **Special:** A fighter may select Improved Sunder as one of his fighter
 bonus feats.
 
+### Improved Trip (featType:: General)
 ### Improved Trip 
 ***Feat Type: General***
 
@@ -1144,6 +1082,7 @@ feat, even if she does not have the prerequisites.
 
 A fighter may select Improved Trip as one of his fighter bonus feats.
 
+### Improved Turning (featType:: General)
 ### Improved Turning 
 ***Feat Type: General***
 
@@ -1152,6 +1091,7 @@ A fighter may select Improved Trip as one of his fighter bonus feats.
 **Benefit:** You turn or rebuke creatures as if you were one level
 higher than you are in the class that grants you the ability.
 
+### Improved Two-Weapon Fighting (featType:: General)
 ### Improved Two-Weapon Fighting 
 ***Feat Type: General***
 
@@ -1171,6 +1111,7 @@ A 6th-level ranger who has chosen the two-weapon combat style is treated
 as having Improved Two-Weapon Fighting, even if he does not have the
 prerequisites for it, but only when he is wearing light or no armor.
 
+### Improved Unarmed Strike (featType:: General)
 ### Improved Unarmed Strike 
 ***Feat Type: General***
 
@@ -1192,17 +1133,20 @@ bonus feat at 1st level. She need not select it.
 A fighter may select Improved Unarmed Strike as one of his fighter bonus
 feats.
 
+### Investigator (featType:: General)
 ### Investigator 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Gather Information checks and
 Search checks.
 
+### Iron Will (featType:: General)
 ### Iron Will 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Will saving throws.
 
+### Leadership (featType:: General)
 ### Leadership 
 ***Feat Type: General***
 
@@ -1334,17 +1278,20 @@ followers, some of which may be higher level than the existing
 followers. (You don't consult the table to see if your cohort gains
 levels, however, because cohorts earn experience on their own.)
 
+### Lightning Reflexes (featType:: General)
 ### Lightning Reflexes 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Reflex saving throws.
 
+### Magical Aptitude (featType:: General)
 ### Magical Aptitude 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Spellcraft checks and Use Magic
 Device checks.
 
+### Manyshot (featType:: General)
 ### Manyshot 
 ***Feat Type: General***
 
@@ -1375,6 +1322,7 @@ A 6th-level ranger who has chosen the archery combat style is treated as
 having Manyshot even if he does not have the prerequisites for it, but
 only when he is wearing light or no armor.
 
+### Martial Weapon Proficiency (featType:: General)
 ### Martial Weapon Proficiency 
 ***Feat Type: General***
 
@@ -1396,6 +1344,7 @@ A cleric who chooses the War domain automatically gains the Martial
 Weapon Proficiency feat related to his deity's favored weapon as a bonus
 feat, if the weapon is a martial one. He need not select it.
 
+### Maximize Spell (featType:: Metamagic)
 ### Maximize Spell 
 ***Feat Type: Metamagic***
 
@@ -1407,6 +1356,7 @@ spell slot three levels higher than the spell's actual level.
 An empowered, maximized spell gains the separate benefits of each feat:
 the maximum result plus one-half the normally rolled result.
 
+### Mobility (featType:: General)
 ### Mobility 
 ***Feat Type: General***
 
@@ -1422,6 +1372,7 @@ Dodge bonuses stack with each other, unlike most types of bonuses.
 **Special:** A fighter may select Mobility as one of his fighter bonus
 feats.
 
+### Mounted Archery (featType:: General)
 ### Mounted Archery 
 ***Feat Type: General***
 
@@ -1434,6 +1385,7 @@ move, and --4 instead of --8 if your mount is running.
 **Special:** A fighter may select Mounted Archery as one of his fighter
 bonus feats.
 
+### Mounted Combat (featType:: General)
 ### Mounted Combat 
 ***Feat Type: General***
 
@@ -1448,6 +1400,7 @@ Class if it's higher than the mount's regular AC.)
 **Special:** A fighter may select Mounted Combat as one of his fighter
 bonus feats.
 
+### Natural Spell (featType:: General)
 ### Natural Spell 
 ***Feat Type: General***
 
@@ -1463,24 +1416,28 @@ permit the use of magic items while you are in a form that could not
 ordinarily use them, and you do not gain the ability to speak while in a
 wild shape.
 
+### Negotiator (featType:: General)
 ### Negotiator 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Diplomacy checks and Sense Motive
 checks.
 
+### Nimble Fingers (featType:: General)
 ### Nimble Fingers 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Disable Device checks and Open
 Lock checks.
 
+### Persuasive (featType:: General)
 ### Persuasive 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Bluff checks and Intimidate
 checks.
 
+### Point Blank Shot (featType:: General)
 ### Point Blank Shot 
 ***Feat Type: General***
 
@@ -1490,6 +1447,7 @@ weapons at ranges of up to 30 feet.
 **Special:** A fighter may select Point Blank Shot as one of his fighter
 bonus feats.
 
+### Power Attack (featType:: General)
 ### Power Attack 
 ***Feat Type: General***
 
@@ -1513,6 +1471,7 @@ round, you treat it as a two-handed weapon.)
 
 A fighter may select Power Attack as one of his fighter bonus feats.
 
+### Precise Shot (featType:: General)
 ### Precise Shot 
 ***Feat Type: General***
 
@@ -1525,6 +1484,7 @@ roll.
 **Special:** A fighter may select Precise Shot as one of his fighter
 bonus feats.
 
+### Quick Draw (featType:: General)
 ### Quick Draw 
 ***Feat Type: General***
 
@@ -1545,6 +1505,7 @@ standard action.
 **Special:** A fighter may select Quick Draw as one of his fighter bonus
 feats.
 
+### Quicken Spell (featType:: Metamagic)
 ### Quicken Spell 
 ***Feat Type: Metamagic***
 
@@ -1561,6 +1522,7 @@ an attack of opportunity.
 spontaneously), since applying a metamagic feat to a spontaneously cast
 spell automatically increases the casting time to a full-round action.
 
+### Rapid Reload (featType:: General)
 ### Rapid Reload 
 ***Feat Type: General***
 
@@ -1586,6 +1548,7 @@ take the feat, it applies to a new type of crossbow.
 
 A fighter may select Rapid Reload as one of his fighter bonus feats.
 
+### Rapid Shot (featType:: General)
 ### Rapid Shot 
 ***Feat Type: General***
 
@@ -1603,6 +1566,7 @@ A 2nd-level ranger who has chosen the archery combat style is treated as
 having Rapid Shot, even if he does not have the prerequisites for it,
 but only when he is wearing light or no armor.
 
+### Ride-by Attack (featType:: General)
 ### Ride-by Attack 
 ***Feat Type: General***
 
@@ -1618,6 +1582,7 @@ not provoke an attack of opportunity from the opponent that you attack.
 bonus feats.
 
 ### Run 
+### Run (featType:: General)
 ***Feat Type: General***
 
 **Benefit:** When running, you move five times your normal speed (if
@@ -1632,6 +1597,7 @@ medium, light, or no armor and carrying no more than a medium load) or
 three times your speed (if wearing heavy armor or carrying a heavy
 load), and you lose your Dexterity bonus to AC.
 
+### Scribe Scroll (featType:: Item Creation)
 ### Scribe Scroll 
 ***Feat Type: Item Creation***
 
@@ -1648,11 +1614,13 @@ cost also carries a commensurate cost. In addition to the costs derived
 from the base price, you must expend the material component or pay the
 XP when scribing the scroll.
 
+### Self-Sufficient (featType:: General)
 ### Self-Sufficient 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Heal checks and Survival checks.
 
+### Shield Proficiency (featType:: General)
 ### Shield Proficiency 
 ***Feat Type: General***
 
@@ -1666,6 +1634,7 @@ and on all skill checks that involve moving, including Ride checks.
 rangers automatically have Shield Proficiency as a bonus feat. They need
 not select it.
 
+### Shot on the Run (featType:: General)
 ### Shot on the Run 
 ***Feat Type: General***
 
@@ -1679,6 +1648,7 @@ moved is not greater than your speed.
 **Special:** A fighter may select Shot on the Run as one of his fighter
 bonus feats.
 
+### Silent Spell (featType:: Metamagic)
 ### Silent Spell 
 ***Feat Type: Metamagic***
 
@@ -1688,6 +1658,7 @@ up a spell slot one level higher than the spell's actual level.
 
 **Special:** Bard spells cannot be enhanced by this metamagic feat.
 
+### Simple Weapon Proficiency (featType:: General)
 ### Simple Weapon Proficiency 
 ***Feat Type: General***
 
@@ -1700,6 +1671,7 @@ take a --4 penalty on attack rolls.
 automatically proficient with all simple weapons. They need not select
 this feat.
 
+### Skill Focus (featType:: General)
 ### Skill Focus 
 ***Feat Type: General***
 
@@ -1710,6 +1682,7 @@ Choose a skill.
 **Special:** You can gain this feat multiple times. Its effects do not
 stack. Each time you take the feat, it applies to a new skill.
 
+### Snatch Arrows (featType:: General)
 ### Snatch Arrows 
 ***Feat Type: General***
 
@@ -1725,6 +1698,7 @@ You must have at least one hand free (holding nothing) to use this feat.
 **Special:** A fighter may select Snatch Arrows as one of his fighter
 bonus feats.
 
+### Spell Focus (featType:: General)
 ### Spell Focus 
 ***Feat Type: General***
 
@@ -1736,6 +1710,7 @@ against spells from the school of magic you select.
 **Special:** You can gain this feat multiple times. Its effects do not
 stack. Each time you take the feat, it applies to a new school of magic.
 
+### Spell Mastery (featType:: Special)
 ### Spell Mastery 
 ***Feat Type: Special***
 
@@ -1748,12 +1723,14 @@ point on, you can prepare these spells without referring to a spellbook.
 **Normal:** Without this feat, you must use a spellbook to prepare all
 your spells, except *read magic.*
 
+### Spell Penetration (featType:: General)
 ### Spell Penetration 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on caster level checks (1d20 + caster
 level) made to overcome a creature's spell resistance.
 
+### Spirited Charge (featType:: General)
 ### Spirited Charge 
 ***Feat Type: General***
 
@@ -1765,6 +1742,7 @@ damage with a melee weapon (or triple damage with a lance).
 **Special:** A fighter may select Spirited Charge as one of his fighter
 bonus feats.
 
+### Spring Attack (featType:: General)
 ### Spring Attack 
 ***Feat Type: General***
 
@@ -1783,12 +1761,14 @@ in order to utilize the benefits of Spring Attack.
 **Special:** A fighter may select Spring Attack as one of his fighter
 bonus feats.
 
+### Stealthy (featType:: General)
 ### Stealthy 
 ***Feat Type: General***
 
 **Benefit:** You get a +2 bonus on all Hide checks and Move Silently
 checks.
 
+### Still Spell (featType:: Metamagic)
 ### Still Spell 
 ***Feat Type: Metamagic***
 
@@ -1797,6 +1777,7 @@ checks.
 Spells without somatic components are not affected. A stilled spell uses
 up a spell slot one level higher than the spell's actual level.
 
+### Stunning Fist (featType:: General)
 ### Stunning Fist 
 ***Feat Type: General***
 
@@ -1824,6 +1805,7 @@ has in classes other than monk.
 
 A fighter may select Stunning Fist as one of his fighter bonus feats.
 
+### Toughness (featType:: General)
 ### Toughness 
 ***Feat Type: General***
 
@@ -1832,6 +1814,7 @@ A fighter may select Stunning Fist as one of his fighter bonus feats.
 **Special:** A character may gain this feat multiple times. Its effects
 stack.
 
+### Tower Shield Proficiency (featType:: General)
 ### Tower Shield Proficiency 
 ***Feat Type: General***
 
@@ -1847,6 +1830,7 @@ and on all skill checks that involve moving, including Ride.
 **Special:** Fighters automatically have Tower Shield Proficiency as a
 bonus feat. They need not select it.
 
+### Track (featType:: General)
 ### Track 
 ***Feat Type: General***
 
@@ -1927,6 +1911,7 @@ not select it.
 This feat does not allow you to find or follow the tracks made by a
 subject of a *pass without trace* spell.
 
+### Trample (featType:: General)
 ### Trample 
 ***Feat Type: General***
 
@@ -1940,6 +1925,7 @@ attack rolls against prone targets.
 **Special:** A fighter may select Trample as one of his fighter bonus
 feats.
 
+### Two-Weapon Defense (featType:: General)
 ### Two-Weapon Defense 
 ***Feat Type: General***
 
@@ -1955,6 +1941,7 @@ this shield bonus increases to +2.
 **Special:** A fighter may select Two-Weapon Defense as one of his
 fighter bonus feats.
 
+### Two-Weapon Fighting (featType:: General)
 ### Two-Weapon Fighting 
 ***Feat Type: General***
 
@@ -1981,6 +1968,7 @@ the prerequisite for it, but only when he is wearing light or no armor.
 A fighter may select Two-Weapon Fighting as one of his fighter bonus
 feats.
 
+### Weapon Finesse (featType:: General)
 ### Weapon Finesse 
 ***Feat Type: General***
 
@@ -1996,6 +1984,7 @@ bonus feats.
 
 Natural weapons are always considered light weapons.
 
+### Weapon Focus (featType:: General)
 ### Weapon Focus 
 ***Feat Type: General***
 
@@ -2016,6 +2005,7 @@ A fighter may select Weapon Focus as one of his fighter bonus feats. He
 must have Weapon Focus with a weapon to gain the Weapon Specialization
 feat for that weapon.
 
+### Weapon Specialization (featType:: General)
 ### Weapon Specialization 
 ***Feat Type: General***
 
@@ -2035,6 +2025,7 @@ stack. Each time you take the feat, it applies to a new type of weapon.
 A fighter may select Weapon Specialization as one of his fighter bonus
 feats.
 
+### Whirlwind Attack (featType:: General)
 ### Whirlwind Attack 
 ***Feat Type: General***
 
@@ -2051,6 +2042,7 @@ extra attacks granted by other feats, spells, or abilities.
 **Special:** A fighter may select Whirlwind Attack as one of his fighter
 bonus feats.
 
+### Widen Spell (featType:: Metamagic)
 ### Widen Spell 
 ***Feat Type: Metamagic***
 
